@@ -59,7 +59,7 @@ def download_track(url):
 
 if __name__ == "__main__":
 
-    url = req.urlopen(sys.argv[1])
+    url = sys.argv[1]
 
     print("URL : " + url)
 
