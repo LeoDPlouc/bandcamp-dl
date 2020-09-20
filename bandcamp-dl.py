@@ -1,7 +1,6 @@
 import urllib.request as req
 import requests
 import sys
-import xml.etree.ElementTree as et
 import re
 
 def find_root(url):
